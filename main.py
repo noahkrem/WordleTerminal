@@ -12,7 +12,8 @@ def rand_word():
         return random.choice(wordsArray)
 
 print_menu()
-word = rand_word()
+# word = rand_word()
+word = "MONEY"
 
 # 7 is exclusive
 for attempt in range(1, 7):
@@ -27,11 +28,11 @@ for attempt in range(1, 7):
             print(colored(guess[i], 'yellow'), end = "")
         else:
             print(guess[i], end = "")
-        
-        # If the entire guess is correct, we win
-        if guess == word:
-            # f string
-            print(f"Correct! You guessed the word in {i} tries.")
     
     # Print an endline at the end of the word
     print("")
+        
+    # If the entire guess is correct, we win
+    if guess == word:
+        print(f"Correct! You guessed the word in {attempt} tries.") # f string
+        break
