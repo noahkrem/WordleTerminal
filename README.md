@@ -6,4 +6,4 @@ This is a simple wordle game that can be run in the terminal.
 
 In order to install the necessary 'termcolor', execute the following line in the terminal:
 
-==python3 -m pip install --upgrade termcolor==
+<span style="background-color: #FFFF00">python3 -m pip install --upgrade termcolor</span>
