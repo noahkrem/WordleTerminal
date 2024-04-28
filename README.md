@@ -1,6 +1,6 @@
 # Wordle Terminal
 
-This is a simple wordle game that can be run in the terminal.
+This is a simple wordle game that can be run in the terminal. I'd like to credit the Replit YouTube channel for the inspiration for this project.
 
 ## Imports
 
